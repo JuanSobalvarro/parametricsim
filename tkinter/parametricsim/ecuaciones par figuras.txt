@@ -4,5 +4,8 @@ x = 16*sen(t)**3
 
 y = 13*cos(t)-(6*cos(2*t))-(3*cos(3*t))-(cos(4*t))
 
+figura "succubo"_mariposa
+x = sen(5*t)+(3*cos(t))
 
+y = 2*cos(4*t)+(sen(2*t))
 
