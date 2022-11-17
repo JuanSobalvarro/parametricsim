@@ -8,7 +8,8 @@ version = 0.1.0
   - Problemas con el turtle, hay que darle dos veces al boton debido a Turtle.Terminator().
 
 =====INSTRUCTIONS=====
-  - Recomendado usar py2exe y transformar sim.py a un .exe.
+  - Ejecutar sym.py.
+  - Recomendado usar py2exe y transformar sim.py a un .exe solo para la porteabilidad.
   - Ejecutar el código desde sim.py.
   - Utilizar un formato parecido al de calculadora para las entradas, y utilizar el parametro t. 
     Ex:  13*cos(t)-(6*cos(2*t))+(3*sen(3*t)*cos(t))-(cos(4*t))+(t**2)
