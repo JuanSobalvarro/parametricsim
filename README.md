@@ -1,2 +1,2 @@
-# pythonwgui
-All kind of codes that uses GUI in python
+# parametricsim
+A program that simulates parametric equations
