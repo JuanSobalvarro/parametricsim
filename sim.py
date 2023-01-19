@@ -229,13 +229,13 @@ turtle_menu.add_cascade(label="Color de fondo", menu=scolor_menu)
 Devuelve tscreen que es la pantalla turtle ya con el canva
 """
 
-sectiont = Frame(window, highlightbackground="red", highlightthickness=2)
+sectiont = Frame(window)
 sectiont.pack(side=RIGHT, fill=BOTH, expand=True)
 #sectiont.grid(row=0, column=1, columnspan=2, sticky=N+S+E+W)
 
 
 #tscreen is the generated turtle screen
-ts = Canvas(sectiont, cursor="circle", relief=FLAT, highlightbackground="blue", highlightthickness=2,width=window.winfo_width()*2/3, height=window.winfo_height())
+ts = Canvas(sectiont, cursor="circle", relief=FLAT, width=window.winfo_width()*2/3, height=window.winfo_height())
 ts.pack(anchor=CENTER, expand=True)
 s = turtle.TurtleScreen(ts)
 #s.setworldcoordinates(llx = 0, lly = height*2/3, urx = width*2/3, ury = 0) #llx lly urx ury (lower leftx, upper rightx)
@@ -249,7 +249,7 @@ tscreen = turtle.RawTurtle(s)
 data section
 """
 #the data frame is where all the information is going to be enter by the user is
-data = Frame(window, highlightbackground="blue", highlightthickness=2)
+data = Frame(window)
 data.pack(side=LEFT, fill=BOTH, expand=True)
 #data.grid(row=0, column=0, columnspan=1, sticky=N+S+E+W)
 
